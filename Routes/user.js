@@ -4,8 +4,6 @@ const fs = require("fs");
 
 const dataPath = "./../users.json";
 
-// util functions
-
 const saveAccountData = (data) => {
   const stringifyData = JSON.stringify(data);
   fs.writeFileSync(dataPath, stringifyData);
@@ -16,7 +14,6 @@ const getAccountData = () => {
   return JSON.parse(jsonData);
 };
 
-// reading the all users
 accountRoutes.get("/users", (req, res) => {
   fs.readFile(dataPath, "utf8", (err, data) => {
     if (err) {
@@ -38,7 +35,6 @@ accountRoutes.post("/user/add", (req, res) => {
   res.send({ success: true, msg: "account data added successfully" });
 });
 
-// Read - get all accounts from the json file
 accountRoutes.get("/user/:id", (req, res) => {
   const accounts = getAccountData();
   const userId = req.params["id"];
@@ -46,7 +42,6 @@ accountRoutes.get("/user/:id", (req, res) => {
   res.send(user ? user : `accounts with id ${userId} not found`);
 });
 
-// Update - using Put method
 accountRoutes.put("/account/:id", (req, res) => {
   var existAccounts = getAccountData();
   fs.readFile(
@@ -63,7 +58,6 @@ accountRoutes.put("/account/:id", (req, res) => {
   );
 });
 
-//delete - using delete method
 accountRoutes.delete("/user/delete/:id", (req, res) => {
   fs.readFile(
     dataPath,

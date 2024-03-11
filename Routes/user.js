@@ -2,7 +2,7 @@ const express = require("express");
 const accountRoutes = express.Router();
 const fs = require("fs");
 
-const dataPath = "./../frontend/hwc/data/UserListData.json";
+const dataPath = "./../users.json";
 
 // util functions
 

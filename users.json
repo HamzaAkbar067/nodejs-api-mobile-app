@@ -1,0 +1,40 @@
+[
+  {
+    "id": "8",
+    "gender": "male",
+    "fullName": "Lukas Martin",
+    "address": "Clermont-Ferrand France",
+    "email": "lukas.martin@example.com",
+    "addressIcon": "https://cdn-icons-png.flaticon.com/512/9101/9101314.png",
+    "messageIcon": "https://cdn-icons-png.flaticon.com/512/3059/3059989.png",
+    "contactNumber": "04-49-09-24-80",
+    "picture": "https://randomuser.me/api/portraits/med/men/57.jpg"
+  },
+  {
+    "id": "9",
+    "gender": "male",
+    "fullName": "Johan Lemoine",
+    "address": "Jesuitenstraße 12, 52062 Aachen",
+    "email": "johan.lemoine@example.com",
+    "addressIcon": "https://cdn-icons-png.flaticon.com/512/9101/9101314.png",
+    "messageIcon": "https://cdn-icons-png.flaticon.com/512/3059/3059989.png",
+    "contactNumber": "04-49-09-24-80",
+    "picture": "https://randomuser.me/api/portraits/med/men/51.jpg"
+  },
+  {
+    "fullName": "Hamza Akbar",
+    "email": "hamzaakbar.se@gmail.com",
+    "phoneNumber": "+923234569088",
+    "address": "Bayernallee 7, 52066 Aachen",
+    "id": "744873",
+    "picture": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5"
+  },
+  {
+    "fullName": "Hamza Akbar",
+    "email": "hamza.akbar@rwth-aachen.de",
+    "phoneNumber": "0123654789",
+    "address": "Aachen 52066",
+    "id": "677250",
+    "picture": "https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5"
+  }
+]
